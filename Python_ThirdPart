@@ -24,3 +24,8 @@
                 http://python.jobbole.com/82692/
                 https://docs.python.org/3/library/shutil.html
                 http://python.jobbole.com/82690/
+
+5.Python socket相关
+      参考库：SocketServer，SimpleHTTPServer，CGIHTTPServer，cgi
+      参考链接：
+      http://python.jobbole.com/82763/
