@@ -4,7 +4,9 @@
       a.BeautifulSoup:
         参考链接：https://segmentfault.com/a/1190000005778518
                   http://python.jobbole.com/85511/#comment-93971
-                  http://python.jobbole.com/81102/
+                  http://python.jobbole.com/81102/    --使用第三方解析html网页数据
+                  http://python.jobbole.com/77830/    --伪装成浏览器
+                  http://python.jobbole.com/77878/    --爬去知乎数据
       
       b.
       c.
@@ -29,7 +31,12 @@
                 https://docs.python.org/3/library/shutil.html
                 http://python.jobbole.com/82690/
 
-5.Python socket相关
+5.Python 网络相关
+      a.socket相关
       参考库：SocketServer，SimpleHTTPServer，CGIHTTPServer，cgi
       参考链接：
       http://python.jobbole.com/82763/
+      
+      b.http相关
+      Requests
+      参考链接：http://docs.python-requests.org/en/latest/
