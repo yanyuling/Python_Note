@@ -42,7 +42,7 @@
       b.http相关
       Requests
       参考链接：http://docs.python-requests.org/en/latest/
-
+ 
 6.python 绘制图表相关
       相关库：
       pygal,
