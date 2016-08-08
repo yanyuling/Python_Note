@@ -1,6 +1,6 @@
 1.爬虫相关
       html网页解析相关的第三方库：
-      
+      数据库存储可以用MongoDB
       a.BeautifulSoup:
         参考链接：https://segmentfault.com/a/1190000005778518
                   http://python.jobbole.com/85511/#comment-93971
@@ -8,8 +8,10 @@
                   http://python.jobbole.com/77830/    --伪装成浏览器
                   http://python.jobbole.com/77878/    --爬去知乎数据
       
-      b.
-      c.
+      b.大量数据的爬去方案：
+            http://xlzd.me/2015/12/21/python-crawler-06 --这个仅仅理论上可以实现，但是实现起来并不简单
+      c.关于反爬虫机制的一小点
+            http://xlzd.me/2016/01/04/python-crawler-07
       d.
                 
 1.a Python Excel文件操作库
@@ -40,3 +42,10 @@
       b.http相关
       Requests
       参考链接：http://docs.python-requests.org/en/latest/
+
+6.python 绘制图表相关
+      相关库：
+      pygal,
+      参考链接：
+      http://www.tuicool.com/articles/BJra6bj
+      http://www.pygal.org/en/stable/  --pygal 库官方地址
