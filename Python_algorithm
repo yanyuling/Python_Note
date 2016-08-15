@@ -1,0 +1,41 @@
+# NOTE 1
+MAX = 8
+queuePos = [0,0,0,0,0,0,0,0]
+global sumType
+sumType = 0
+
+def pritnOut():
+    print "___________________________________"
+    for x in xrange(MAX):
+      for j in xrange(MAX):
+        if queuePos[x] == j :
+          print "1  ",
+        else:
+          print "0  ",
+      print"\n"
+
+def isVaild(idx):
+      for x in xrange(idx):
+        if queuePos[x] == queuePos[idx]:
+            return 0
+        if (abs( queuePos[x] - queuePos[idx]) == (idx-x)):
+          return 0
+
+      return 1
+
+def addQueue(idx):
+    for x in xrange(MAX):
+        if idx == MAX:
+          global sumType
+          sumType = sumType + 1
+          pritnOut()
+          return
+
+        queuePos[idx] = x
+        validValue = isVaild(idx)
+        if ( validValue == 1):
+          addQueue(idx+1)
+
+if __name__ == '__main__': 
+  addQueue(0)
+  print sumType
