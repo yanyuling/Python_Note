@@ -1,4 +1,4 @@
-# NOTE 1
+# NOTE 1 八皇后问题
 MAX = 8
 queuePos = [0,0,0,0,0,0,0,0]
 global sumType
